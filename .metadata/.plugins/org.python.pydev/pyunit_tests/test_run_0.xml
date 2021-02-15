@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+    <summary errors="2" failures="0" finished="true" name="Test Run: 0" tests="0" total_time="Finished in: 0.00 secs."/>
+    <test location="H:/git/Side Projects/AsteroidsRedux/Astroids/entity.py" status="error" test="entity" time="0">
+        <stdout/>
+        <stderr><![CDATA[Traceback (most recent call last):
+  File "C:\Users\Paul\Eclipse\pool\plugins\org.python.pydev.core_8.1.0.202012051215\pysrc\_pydev_runfiles\pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "H:\git\Side Projects\AsteroidsRedux\Astroids\entity.py", line 2, in <module>
+    from PIL import Image, ImageTk
+ModuleNotFoundError: No module named 'PIL'
+ERROR: Module: entity could not be imported (file: H:/git/Side Projects/AsteroidsRedux/Astroids/entity.py).
+]]></stderr>
+    </test>
+    <test location="H:/git/Side Projects/AsteroidsRedux/Astroids/main.py" status="error" test="main" time="0">
+        <stdout/>
+        <stderr><![CDATA[Traceback (most recent call last):
+  File "C:\Users\Paul\Eclipse\pool\plugins\org.python.pydev.core_8.1.0.202012051215\pysrc\_pydev_runfiles\pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "H:\git\Side Projects\AsteroidsRedux\Astroids\main.py", line 2, in <module>
+    import entity
+  File "H:\git\Side Projects\AsteroidsRedux\Astroids\entity.py", line 2, in <module>
+    from PIL import Image, ImageTk
+ModuleNotFoundError: No module named 'PIL'
+ERROR: Module: main could not be imported (file: H:/git/Side Projects/AsteroidsRedux/Astroids/main.py).
+]]></stderr>
+    </test>
+    <launch mode="run">
+        <launch_memento><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="Astroids Astroids"/>
+]]></launch_memento>
+    </launch>
+</pydev-testsuite>
