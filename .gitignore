@@ -1,3 +1,4 @@
 /.metadata/
+__pycache__
 .project
 .pydevproject
